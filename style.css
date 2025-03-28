@@ -1,0 +1,50 @@
+/* extensions/random-connector/style.css */
+
+/* 프로필 목록을 담는 컨테이너 스타일 */
+.rc-profile-list {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid var(--border-color, #444); /* SillyTavern 테마의 보더 색상 사용 */
+    border-radius: 5px;
+    max-height: 250px; /* 최대 높이 지정 후 스크롤 생성 */
+    overflow-y: auto;
+    background-color: var(--background-color-secondary, #2c2f33); /* SillyTavern 테마의 보조 배경색 사용 */
+}
+
+/* 프로필 목록이 비어있거나 로딩 중일 때 메시지 스타일 */
+.rc-profile-list p em {
+    color: var(--text-color-secondary, #999); /* SillyTavern 테마의 보조 텍스트 색상 사용 */
+    font-style: italic;
+}
+
+/* 각 프로필 항목 (체크박스 + 레이블) 스타일 */
+.rc-profile-item {
+    display: block; /* 각 항목이 새 줄에 표시되도록 함 */
+    margin-bottom: 8px; /* 항목 간의 간격 */
+    padding: 2px 0; /* 약간의 내부 여백 (선택 사항) */
+}
+
+/* 프로필 이름 레이블 스타일 */
+.rc-profile-item label {
+    margin-left: 8px; /* 체크박스와 텍스트 사이 간격 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    user-select: none; /* 텍스트 선택 방지 (선택 사항) */
+    vertical-align: middle; /* 체크박스와 수직 정렬 */
+}
+
+/* 체크박스 자체 스타일 (필요 시) */
+.rc-profile-item input[type="checkbox"] {
+    vertical-align: middle; /* 레이블과 수직 정렬 */
+    cursor: pointer;
+}
+
+/* 저장 버튼 상단 간격 */
+#random-connector-save {
+    margin-top: 15px;
+}
+
+/* hr 구분선 스타일 (SillyTavern 기본값 사용하지만 필요시 조정) */
+/* hr { ... } */
+
+/* 설명 텍스트(small) 스타일 (SillyTavern 기본값 사용하지만 필요시 조정) */
+/* .inline-drawer small { ... } */

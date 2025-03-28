@@ -1,0 +1,11 @@
+{
+    "display_name": "랜덤 커넥터",
+    "loading_order": 9,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "patch",
+    "version": "1.0.0",
+    "homePage": "https://github.com/SillyTavern/SillyTavern"
+}

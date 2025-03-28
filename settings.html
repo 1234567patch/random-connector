@@ -1,0 +1,24 @@
+<div class="inline-drawer">
+    <div class="inline-toggle">
+        <input id="random-connector-enabled" type="checkbox">
+        <label for="random-connector-enabled" data-i18n="Enable Random Connector">Enable Random Connector</label>
+    </div>
+    <small data-i18n="[Random Connector] When enabled, a random connector profile from the selected list below will be chosen after each AI response, preparing for the next generation.">[Random Connector] When enabled, a random connector profile from the selected list below will be chosen after each AI response, preparing for the next generation.</small>
+</div>
+
+<hr>
+
+<div class="inline-drawer">
+    <h4 data-i18n="Include Profiles in Random Pool">Include Profiles in Random Pool</h4>
+    <small data-i18n="[Random Connector] Select the connection profiles (saved in Connection Manager) that you want to include in the randomization pool.">[Random Connector] Select the connection profiles (saved in Connection Manager) that you want to include in the randomization pool.</small>
+    
+    <div id="random-connector-profiles" class="rc-profile-list">
+        <p><em data-i18n="Loading connection profiles...">Loading connection profiles...</em></p>
+        </div>
+</div>
+
+<hr>
+
+<button id="random-connector-save" class="menu_button primaryButton">
+    <i class="fa-solid fa-save"></i> <span data-i18n="Save Settings">Save Settings</span>
+</button>
